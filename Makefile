@@ -26,6 +26,9 @@ temp:
 run: 
 	java -cp ./bin BarrierTest 5 5
 
+run2: 
+	java -cp ./bin BarrierTest 5 8
+
 
 
 
