@@ -27,3 +27,5 @@ run:
 	java -cp ./bin BarrierTest 5 5
 
 
+
+
