@@ -31,6 +31,15 @@ public class Barrier {
 			}
 		semaphore2.acquire();
 		semaphore2.release();
+/*		semaphore3.acquire();
+		incrementer++;
+		semaphore3.release();
+		
+		while(incrementer > n){
+			semaphore4.release();
+			}
+		semaphore4.acquire();
+		semaphore4.release();*/			
 	}
 
 }

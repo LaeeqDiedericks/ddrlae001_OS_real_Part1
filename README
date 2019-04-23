@@ -1,0 +1,17 @@
+1)Code can be run by using two methods:
+	1.1) Going into src file and using javac to compile BarrierTest and then java to run BarrierTest 		     class with the associated thread and barrier size.
+		method: i) javac BarrierTest.java
+			ii) java BarrierTest 5 5
+
+	1.2) using the Make file.
+		method: i) make run- this will run BarrierTest class with the 5 5 parameters being passed
+			ii) there is a run2 as well
+
+2)the assignment question was a bit unclear to me as in which way we were suppose to submit it. Furthermore, with respect to creating a git repository, i created a repository in the terminal, in a similar way that was required in previous computer science course. To check the repository use:
+	command line: git log | (ln=0; while read l; do echo $ln\: $l; ln=$((ln+1)); done) | (head -10; echo ...; tail -10)
+
+3) the way in which to run the assignment was very unclear
+
+4)A problem that I encounted was the packaging. It only works when i uncomment the package. However if i run the assignment in eclipse it works perfectly. 
+
+5) if there is any problem, please email me because my code does work and is complete
